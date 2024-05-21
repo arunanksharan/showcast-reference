@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* background-color: #855DCD; Set this to the specific black you're using */
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Mona Sans';
+  src: url('/fonts/MonaSansCondensed-Black.woff2') format('woff2');
+        
+  font-weight: normal;
+  font-style: normal;
+}
+
+.showcast-login-btn button {
+  background-color: #855DCD;
+  padding: .8rem 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s ease-in-out;
+}
+
+.showcast-login-btn.w-full button {
+  width: 100%;
+}
+
+.showcast-login-btn.w-transparent button {
+  background-color: transparent
+}
+
+.showcast-login-btn button:hover {
+  /* lighten it a bit */
+  background-color: #9578da
+}
+
+.showcast-login-btn button span{
+  display: none;
+}
+
+.showcast-login-btn button::after{
+  content: "Sign in with Farcaster";
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Manrope', sans-serif;
+   margin-left: 1rem;
+}
