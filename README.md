@@ -9,7 +9,7 @@ The objective was to create an Omegle/Chatroulette like app for Farcaster accoun
 1. User can sign in with Farcaster account. FC-Authkit has been used to enable this. Reference: https://docs.farcaster.xyz/auth-kit/introduction
 
 2. The user is assigned to a random room with another signed in user.
-   Reference: https://warpcast.com/arunank/0x326a8668
+   Reference: https://warpcast.com/arunank/0x3cc5362e
 
 3. The user can leave the room and this process repeats till the user signs out.
 
